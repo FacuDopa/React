@@ -1,0 +1,67 @@
+[
+    {
+        "nombre": "Rack para Tv", 
+        "descripcion": "Rack para Tv con dos cajones superiores y dos puertas con amplio espacio debajo, es a medida.", 
+        "imagenCard": "collage.jpg", 
+        "precio": 3000,
+        "id": 1,
+        "stock": 40,
+        "idCategoria": "Muebles-Grandes"
+    },
+    {
+        "nombre": "Banco",
+        "descripcion": "Banco de 4 patas, con base redonda, es bajo, disponible en varios colores.", 
+        "imagenCard": "banco.jpg", 
+        "precio": 4000,
+        "id": 2,
+        "stock": 20,
+        "idCategoria": "Muebles-Medianos"
+    },
+    {
+        "nombre": "Mesita de luz",
+        "descripcion": "Mesita de luz con un cajón con manija.", 
+        "imagenCard": "Cajon.jpg", 
+        "precio": 3000,
+        "id": 3,
+        "stock": 18,
+        "idCategoria": "Muebles-Grandes"
+    },
+    {
+        "nombre": "Lapicero",
+        "descripcion": "Lapicero con 3 espacios, el color se puede modificar.", 
+        "imagenCard": "lapicero.jpeg", 
+        "precio": 1000,
+        "id": 4,
+        "stock": 56,
+        "idCategoria": "Muebles-Pequeños"
+    },
+    {
+        "nombre": "Camión de juguete",
+        "descripcion": "Camión de madera para chicos, puede ir barnizado y/o pintado.", 
+        "imagenCard": "camion.jpeg", 
+        "precio": 2500,
+        "id": 5,
+        "stock": 43,
+        "idCategoria": "Muebles-Pequeños"
+    },
+    {
+        "nombre": "Soporte para Auricular",
+        "descripcion": "Incluye el soporte para el auricular junto con 4 lapiceros y 2 espacios para uso general.", 
+        "imagenCard": "porta-auris.jpg", 
+        "precio": 5000,
+        "id": 6,
+        "stock": 12,
+        "idCategoria": "Muebles-Medianos"
+    },
+    {
+        "nombre": "Maceta",
+        "descripcion": "Maceta de madera, puede ir pintada y/o barizada,contiene pintura protectora por dentro.", 
+        "imagenCard": "macetero.jpeg", 
+        "precio": 4000,
+        "id": 7,
+        "stock": 3,
+        "idCategoria": "Muebles-Medianos"
+    }
+]
+
+
