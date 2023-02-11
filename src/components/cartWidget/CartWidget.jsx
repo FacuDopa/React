@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const CartWidget = ({cantidadCarrito}) => {
     return (
         <>
-            <button className='btn btn-dark'>Carrito</button>
-            <p>{cantidadCarrito}</p>
+        <Link className="nav-link" to={'/Cart'}><button className='btn btn-outline-secondary'>Carrito</button></Link>
+        <p>{cantidadCarrito}</p>
         </>
     );
 }

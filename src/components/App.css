@@ -1,15 +1,25 @@
+.darkMode{
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
 .card-productos{
   margin: 4px;
   justify-content: center;
 }
 
 .card-producto{
-  color: white;
   width: 18rem;
   margin: 4px;
 }
 
-.card--body, .precio-cards{
+.card-Body, .precio-cards{
+  text-align: center;
+}
+
+.card-dark{
+  background-color: gray;
   text-align: center;
 }
 
@@ -20,4 +30,17 @@
   justify-content: center;
   position: relative;
   bottom: 10px;
+}
+
+.cart-container {
+  margin-top: 3%;
+  margin-left: 26,5%;
+}
+
+.div-button {
+  margin: 4px;
+}
+
+.card-cart{
+  max-width: 340px;
 }

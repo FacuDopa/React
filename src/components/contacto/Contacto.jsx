@@ -37,7 +37,7 @@ export const Contacto = () => {
                     <label htmlFor="consulta" className="form-label">Consulta</label>
                     <textarea className="form-control" rows={3} name="consulta"/>
                 </div>
-                <button type="submit" className="btn btn-primary">Enviar</button>
+                <button type="submit" className="btn btn-outline-secondary">Enviar</button>
             </form>
 
         </div>

@@ -1,16 +1,19 @@
 import { useState } from "react";
+import { useDarkModeContext } from "../../context/DarkModeContext";
 
 export const ItemCount = ({valIicial, stock}) => {
     const [contador, setContador] = useState(valIicial)
           //variable    //modificar var    //estado inicial
 
+    const {darkMode} = useDarkModeContext()
+
     const sumar = () => (contador < stock) && setContador(contador + 1);
     const restar = () => (contador > valIicial) && setContador(contador - 1);
     return (
         <>
-            <button className='btn btn-dark me-3' onClick={() => restar() }>-</button>
+            <button className={`btn ${darkMode ? 'btn-primary' : 'btn-outline-secondary'} me-3 rounded-pill`} onClick={() => restar() }>-</button>
                 {contador}
-            <button className='btn btn-dark ms-3' onClick={() => sumar() }>+</button>
+            <button className={`btn ${darkMode ? 'btn-primary' : 'btn-outline-secondary'} ms-3 rounded-pill`} onClick={() => sumar() }>+</button>
         </>
     );
 }
