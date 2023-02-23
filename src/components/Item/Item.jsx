@@ -7,7 +7,7 @@ export const Item = ({item}) => {
 
     return (
         <div className={`card mb-3 card-producto ${darkMode && 'card-dark'}`} style={{width: '20rem'}}>
-            <img src={`../img/${item.imagenCard}`} className="card-img-top mt-2 rounded" alt={`${item.nombre} en madera`} height={300}/>
+            <img src={item.imagenCard} className="card-img-top mt-2 rounded" alt={`${item.nombre} en madera`} height={300}/>
                 <div className={`card-body ${darkMode ? 'card-dark' : 'card-Body'}`}>
                     <h5 className="card-title">{item.nombre}</h5>
                     <p className="card-text mb-0">{item.descripcion}</p>

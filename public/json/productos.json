@@ -2,7 +2,7 @@
     {
         "nombre": "Rack para Tv", 
         "descripcion": "Rack para Tv con dos cajones superiores y dos puertas con amplio espacio debajo, es a medida.", 
-        "imagenCard": "collage.jpg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/collage.jpg?alt=media&token=b6bc61a3-15f0-4570-a398-3edd15707ca9", 
         "precio": 3000,
         "id": 1,
         "stock": 40,
@@ -11,7 +11,7 @@
     {
         "nombre": "Banco",
         "descripcion": "Banco de 4 patas, con base redonda, es bajo, disponible en varios colores.", 
-        "imagenCard": "banco.jpg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/banco.jpg?alt=media&token=38dc20f9-de92-4320-ae13-dc3f1ba7fc07", 
         "precio": 4000,
         "id": 2,
         "stock": 20,
@@ -20,7 +20,7 @@
     {
         "nombre": "Mesita de luz",
         "descripcion": "Mesita de luz con un cajón con manija.", 
-        "imagenCard": "Cajon.jpg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/Cajon.jpg?alt=media&token=3678cadf-1726-4b72-a417-c56644c51f51", 
         "precio": 3000,
         "id": 3,
         "stock": 18,
@@ -29,7 +29,7 @@
     {
         "nombre": "Lapicero",
         "descripcion": "Lapicero con 3 espacios, el color se puede modificar.", 
-        "imagenCard": "lapicero.jpeg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/lapicero.jpeg?alt=media&token=938aa8e2-696e-43d3-8f33-9f20a1aaa48a", 
         "precio": 1000,
         "id": 4,
         "stock": 56,
@@ -38,7 +38,7 @@
     {
         "nombre": "Camión de juguete",
         "descripcion": "Camión de madera para chicos, puede ir barnizado y/o pintado.", 
-        "imagenCard": "camion.jpeg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/camion.jpeg?alt=media&token=182b743f-6430-4e7e-b197-5f6e7cbcf406", 
         "precio": 2500,
         "id": 5,
         "stock": 43,
@@ -47,7 +47,7 @@
     {
         "nombre": "Soporte para Auricular",
         "descripcion": "Incluye el soporte para el auricular junto con 4 lapiceros y 2 espacios para uso general.", 
-        "imagenCard": "porta-auris.jpg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/porta-auris.jpg?alt=media&token=8a096a89-a98a-4fad-a739-dc950ab74e41", 
         "precio": 5000,
         "id": 6,
         "stock": 12,
@@ -56,7 +56,7 @@
     {
         "nombre": "Maceta",
         "descripcion": "Maceta de madera, puede ir pintada y/o barizada,contiene pintura protectora por dentro.", 
-        "imagenCard": "macetero.jpeg", 
+        "imagenCard": "https://firebasestorage.googleapis.com/v0/b/react-coder-a19de.appspot.com/o/macetero.jpeg?alt=media&token=0d2a345e-5d1b-477f-8b6b-d01f401f379e", 
         "precio": 4000,
         "id": 7,
         "stock": 3,

@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
+import { useCarritoContext } from "../../context/CarritoContext";
 
 export const Cart = () => {
-    const carrito = [
-        {id: 1, nombre: 'Arroz', modelo: '1', precio: 400, cantidad: 5},
-        {id: 2, nombre: 'Fideos', modelo: '2', precio: 300, cantidad: 7},
-        {id: 3, nombre: 'Manteca', modelo: '3', precio: 500, cantidad: 10},
-    ]
+    const {carrito, totalPrice, emptyCart} = useCarritoContext()
 
     return(
         <>
@@ -23,8 +20,8 @@ export const Cart = () => {
                             <ItemList products={carrito}/>
                         }
                         <div className="div-button">
-                            <p>Resumen de la compra: precio total</p>
-                            <button className="btn btn-danger">Vaciar Carrito</button>
+                            <p>Resumen de la compra: {totalPrice}</p>
+                            <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar Carrito</button>
                             <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link>
                             <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar Compra</button></Link>
                         </div>
